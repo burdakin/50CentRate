@@ -1,0 +1,13 @@
+<template>
+    <lightning-card class="title" title="Почем Фифти?" icon-name="custom:custom19">
+        <div class="slds-m-around_medium">
+            <img class="photo" src={pic_url}>
+            <p value={priceToShow} class="price">{priceToShow}</p>
+            <!-- <p value={oldPrice} class="price">Old price {oldPrice}</p> -->
+        </div>
+        <div id="diff" class="diff">
+            <p id="difference-number" class="difference-number" value={howMuchIsDifferent}>{howMuchIsDifferent}</p>
+            <img id="arrow" class="arrow" src={arrow_pic_url}>
+        </div>
+    </lightning-card>
+</template>
